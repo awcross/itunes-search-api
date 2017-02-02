@@ -13,6 +13,7 @@ $ npm install --save itunes-search-api
 ## Usage
 
 ```js
+const fs = require('fs');
 const itunesSearchApi = require('itunes-search-api');
 
 const opts = {
@@ -26,6 +27,9 @@ itunesSearchApi('deftones', opts).then(res => {
 	console.log(res.body);
 	//=> {resultCount: 1, results: [{...}]}
 });
+
+// Stream
+itunesSearchApi.stream('deftones', opts).pipe(fs.createWriteStream('data.json'));
 ```
 
 
