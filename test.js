@@ -12,7 +12,7 @@ const opts = {
 test('default', async t => {
 	const result = await m('deftones', opts);
 
-	t.is(result.body.results.length, 1);
+	t.is(result.body.resultCount, 1);
 	t.is(result.body.results[0].artistName.toLowerCase(), 'deftones');
 });
 
