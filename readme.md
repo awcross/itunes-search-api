@@ -48,7 +48,7 @@ Type: `object`
 ## CLI
 
 ```
-$ npm install --g itunes-search-api
+$ npm install -g itunes-search-api
 ```
 
 ```
@@ -62,7 +62,7 @@ $ itunes-search-api --help
     --entity  Type of results returned [Default: album]
     --limit  Number of results to return [Default: 25]
 
-  Examples
+  Example
     $ itunes-search-api deftones
     {resultCount: 19, results: [{...}]}
 ```
