@@ -1,0 +1,50 @@
+{
+  "name": "itunes-search-api",
+  "version": "0.0.0",
+  "description": "iTunes Search API",
+  "license": "MIT",
+  "repository": "awcross/itunes-search-api",
+  "author": {
+    "name": "Alex Cross",
+    "email": "crossaw@gmail.com",
+    "url": "alexcross.io"
+  },
+  "bin": "cli.js",
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    "itunes",
+    "search",
+    "itunes search",
+    "itunes api",
+    "music",
+    "movies",
+    "books",
+    "artists"
+  ],
+  "dependencies": {
+    "meow": "^3.7.0"
+  },
+  "devDependencies": {
+    "ava": "^0.17.0",
+    "get-stream": "^3.0.0",
+    "got": "^6.7.1",
+    "xo": "^0.17.0"
+  },
+  "xo": {
+    "esnext": true,
+    "rules": {
+      "padded-blocks": 0
+    }
+  }
+}
