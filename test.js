@@ -19,8 +19,3 @@ test('default', async t => {
 test('stream', async t => {
 	t.is(JSON.parse(await getStream(m.stream('deftones', opts))).results[0].artistName.toLowerCase(), 'deftones');
 });
-
-test('invalid query', t => {
-	opts.query.entity = 'Not Found';
-	t.throws(m('deftones', opts), 'Response code 400 (Bad Request)');
-});
