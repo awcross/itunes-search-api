@@ -14,7 +14,7 @@ const cli = meow(`
 
 	Examples
 	  $ itunes-search-api deftones
-	  {resultCount: 19, results: [{...}]}
+	  {resultCount: 21, results: [{...}]}
 `);
 
 let input = cli.input;
