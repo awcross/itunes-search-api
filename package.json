@@ -33,13 +33,13 @@
     "artists"
   ],
   "dependencies": {
-    "got": "^6.7.1",
+    "got": "^7.0.0",
     "meow": "^3.7.0"
   },
   "devDependencies": {
-    "ava": "^0.17.0",
+    "ava": "*",
     "get-stream": "^3.0.0",
-    "xo": "^0.17.0"
+    "xo": "*"
   },
   "xo": {
     "esnext": true,
